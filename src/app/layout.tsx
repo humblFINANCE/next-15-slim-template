@@ -5,8 +5,8 @@ import localFont from 'next/font/local';
 
 import { ThemeProvider } from 'next-themes';
 
-import NavigationBar from '@/app/(delete-this-and-modify-page.tsx)/NavigationBar';
-import '@/app/globals.css';
+import NavigationBar from '@/features/landing-page/components/NavigationBar';
+import '@/globals.css';
 
 const geistSans = localFont({
     src: './fonts/GeistVF.woff',

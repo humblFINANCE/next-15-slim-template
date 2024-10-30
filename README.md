@@ -1,6 +1,7 @@
 # Next.js 15 Starter (shadcn) [[LIVE DEMO](https://nextjs-15-starter-shadcn.vercel.app/)]
 
 *This is the Tailwind version for Next.js 15 Starter, you may be interested in other templates too -*
+
 - [**Next.js 15 Starter Core**](https://github.com/SiddharthaMaity/nextjs-15-starter-core)
 - [**Next.js 15 Starter with Tailwind CSS**](https://github.com/SiddharthaMaity/nextjs-15-starter-tailwind)
 
@@ -61,7 +62,6 @@ To enhance development experience, install the following VS Code extensions:
 - [**Visual Studio Code Commitizen Support**](https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-commitizen)
 - [**Markdown All in One**](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
-
 ## 🏁 Getting Started
 
 ### Prerequisites
@@ -72,16 +72,20 @@ To enhance development experience, install the following VS Code extensions:
 ### Installation
 
 1. **Clone the Repository**:
+
     ```bash
     git clone https://github.com/yourusername/nextjs-15-starter-shadcn.git
     cd nextjs-15-starter-shadcn
     ```
+
     To get the code without example change branch to without-example
+
     ```bash
     git checkout without-example
     ```
 
 2. **Install Dependencies**:
+
     ```bash
     npm install
     # or with Yarn
@@ -89,6 +93,7 @@ To enhance development experience, install the following VS Code extensions:
     ```
 
 3. **Run Development Server**:
+
     ```bash
     npm run dev
     # or with Yarn
@@ -96,6 +101,7 @@ To enhance development experience, install the following VS Code extensions:
     ```
 
 4. **Build for Production**:
+
     ```bash
     npm run build
     ```
@@ -108,6 +114,13 @@ To use Docker, make sure Docker is installed on your machine. Then, build and ru
 docker build -t nextjs-starter-shadcn .
 docker run -p 3000:3000 nextjs-starter-shadcn
 ```
+
+### Setup for GitHub Actions
+
+To setup the GitHub Actions, you need to create a personal access token (PAT) with the necessary permissions.
+
+1. Go to your GitHub account settings and generate a new personal access token.
+2. Add the token to the repository secrets with the name `GH_PAT_CLASSIC`.
 
 ### ☁ Try it in the Cloud
 

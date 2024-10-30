@@ -1,8 +1,8 @@
 {
-    "name": "nextjs-15-starter-shadcn",
-    "version": "1.0.0",
+    "name": "autobook-frontend",
+    "version": "0.0.0",
     "private": true,
-    "website": "https://nextjs-15-starter-shadcn.vercel.app/",
+    "website": "https://autobook.vercel.app/",
     "license": "MIT",
     "scripts": {
         "dev": "next dev --turbopack",
